@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main()
+int oldMain()
 {
     // insert code here...
     cout << "Hello, World!" << endl;
@@ -22,6 +22,8 @@ int main()
 //    cin >> word;
     
     cout << "Hello " << word << " :D" << endl;
+    
+    cout << (3 + 5 * 43) << endl;
     
     return 100;
 }
