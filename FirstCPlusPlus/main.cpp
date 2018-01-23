@@ -14,5 +14,14 @@ int main()
 {
     // insert code here...
     cout << "Hello, World!" << endl;
-    return 0;
+    cout << "Insert name below" << endl;
+    
+    string word;
+    getline(cin, word);
+ 
+//    cin >> word;
+    
+    cout << "Hello " << word << " :D" << endl;
+    
+    return 100;
 }
